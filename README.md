@@ -15,11 +15,8 @@ The workspace is organized into data processing pipelines, analysis notebooks, a
 
 ### Scripts and data files
 *   **`1. data_extracting.ipynb`**: The initial data pipeline. It loads raw CSV datasets from the `datasets/` folder, samples documents, performs initial preprocessing (chunking), and consolidates them into `processed_data.csv`.
-<<<<<<< HEAD
 *   **`2. data_cleaning.ipynb`**: Performs advanced text cleaning. It normalizes text, removes stopwords, and crucially masks disease-specific terms (like "Alzheimer", "Dementia") to prevent data leakage during classification. Take in `processed_data.csv` and produces `cleaned_data.csv`.
-=======
 *   **`2. data_cleaning.ipynb`**: Performs advanced text cleaning. It normalizes text, removes stopwords, and crucially masks disease-specific terms (like "Alzheimer", "Dementia") to prevent data leakage during classification. Produces `cleaned_data.csv`.
->>>>>>> 554137625baa8d116216dc685a48b04d33f177cd
 *   **`processed_data.csv`**: The successfully abstracted dataset from raw datasets used for training models.
 *   **`cleaned_data.csv`**: The final preprocessed dataset used for training models.
 
